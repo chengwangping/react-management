@@ -1,0 +1,28 @@
+#root {
+    height: 100%; 
+    width: 100%;
+}
+.page-view {
+    margin:0 16px;
+    overflow: initial;
+    .ant-breadcrumb {
+        margin:15px 0;
+        font-size: 14px;
+    }
+    .ant-card-head {
+        padding: 0 20px !important;
+    }
+    .loading {
+        text-align: center;
+        position: absolute;
+        background: #fff;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+}

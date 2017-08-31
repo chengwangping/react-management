@@ -1,0 +1,35 @@
+.header {
+    background: #193b54;
+    padding: 0;
+    height: 65px;
+    .header-user {
+        background: transparent !important;
+        .ant-menu-submenu-horizontal {
+            margin-right: 20px;
+            & > .ant-menu {
+                width: 120px;
+                left: -25px;
+            }
+            .avatar {
+                position: relative;
+                display: inline-block;
+                width: 40px;
+                line-height: 1;
+                white-space: nowrap;
+                font-weight: bold;
+                img {
+                    width:40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    vertical-align: middle;
+                }
+            }
+        }
+        
+    }
+    .custom-trigger {
+        padding: 10px;
+        cursor: pointer;
+        color: #fff;
+    }
+}

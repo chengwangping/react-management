@@ -1,0 +1,42 @@
+//美化webkit内核滚动条
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #777;
+}
+.ant-layout-sider{
+    background: #1c2b36;
+    .logo{
+        width: 100%;
+        overflow: hidden;
+        height: 60px;
+        display: inline-block;
+        img {
+            vertical-align: middle;
+            width: 120px;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+    }
+    .ant-menu-dark {
+        background: inherit;
+        .ant-menu-inline.ant-menu-sub {
+            background: #16232d;
+        }
+    }
+    &.ant-layout-sider-collapsed{
+        overflow-y: initial !important;
+        .anticon{
+            font-size: 16px;
+            margin-left: 8px;
+        }
+        .nav-text{
+            display: none;
+        }
+        .ant-menu-submenu-vertical > .ant-menu-submenu-title:after{
+            display: none;
+        }
+    }
+}

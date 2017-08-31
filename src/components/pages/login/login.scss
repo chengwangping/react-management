@@ -1,0 +1,32 @@
+.login-warp {
+	background: #f3f3f3;
+	position: relative;
+	width: inherit;
+	height: inherit;
+	.login-form {
+		width: 320px;
+	    height: 340px;
+		padding:40px 30px;
+		position: absolute;
+		left:50%;
+		top:50%;
+		margin-left:-160px;
+		margin-top: -170px; 
+    	box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+		background: #fff;
+		.login-btn {
+			width: 100%;
+		}
+		.login-logo {
+			height: 40px;
+			line-height: 40px;
+			margin-bottom: 24px;
+			font-size: 20px;
+			img {
+				width: 100px;
+				vertical-align: middle;
+				margin-right: 10px;
+			}
+		}
+	}
+}
