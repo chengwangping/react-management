@@ -36,7 +36,7 @@
 ### 如何快速开始？
 
 ```bash
-1. git clone http://172.16.9.89：82/maniway-fe/B2B-platform-agriculture-admin.git
+1. git clone https://github.com/chengwangping/react-management.git
 
 
 2. 克隆成功后，进入 B2B-platform-agriculture-admin 文件夹，安装所有依赖;
