@@ -46,7 +46,7 @@ npm install (建议用cnpm) 或者yarn install (需要安装yarn);
 3 运行 npm run dev (dev 开发 ，build 打包)
 ```
 
-
+### [预览地址](https://chengwangping.github.io/react-management/dist/)
 
 
 
