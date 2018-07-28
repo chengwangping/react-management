@@ -39,7 +39,7 @@
 1. git clone https://github.com/chengwangping/react-management.git
 
 
-2. 克隆成功后，进入 B2B-platform-agriculture-admin 文件夹，安装所有依赖;
+2. 克隆成功后，进入 react-management 文件夹，安装所有依赖;
 npm install (建议用cnpm) 或者yarn install (需要安装yarn);
 
 
